@@ -8,8 +8,8 @@ class BankAccount
     @status = status
   end
 
-  def deposit(ammount)
-    @balance + ammount
+  def deposit(amount)
+    self.balance += amount
   end
 
   def display_balance
