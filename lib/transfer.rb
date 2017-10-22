@@ -9,4 +9,8 @@ class Transfer
     @amount = amount
   end
 
+  def valid?
+    BankAccount.valid?
+  end
+
 end
